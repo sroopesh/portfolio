@@ -5,6 +5,6 @@
 }
 
 .header {
-    position: relative;
-    right: 9%;
+    text-align: left;
+    margin-left: 11.5rem;
 }

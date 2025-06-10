@@ -1,3 +1,8 @@
 .text {
     color: white;
 }
+
+.about {
+    text-align: left;
+    margin-left: 9.5rem;
+}

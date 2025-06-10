@@ -1,10 +1,11 @@
 // src/components/Projects.js
 import React from 'react';
+import styles from './Projects.module.css'
 
 export default function Projects() {
   return (
-    <section id="projects" className="container max-w-5xl mx-auto p-8 my-6 scroll-mt-32">
-      <h2 className="text-2xl font-semibold mb-4 text-blue-800">Projects</h2>
+    <section id="projects" className={`container max-w-5xl mx-auto p-8 my-6 scroll-mt-32 ${styles.projects}`}>
+      <h2 className="text-3xl font-semibold mb-4 text-white">PROJECTS</h2>
       <div className="space-y-6">
         {[
           {
@@ -29,8 +30,8 @@ export default function Projects() {
           }
         ].map(project => (
           <div key={project.title} className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-bold text-blue-700">{project.title}</h3>
-            <p>{project.desc}</p>
+            <h3 className="text-xl font-bold text-black">{project.title}</h3>
+            <p className="text-l text-gray-800">{project.desc}</p>
           </div>
         ))}
       </div>

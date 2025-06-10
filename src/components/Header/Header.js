@@ -8,13 +8,12 @@ function Header() {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className={`container header text-center ${styles.header}`}
+      className={`container header ${styles.header}`}
     >
       <h1
         style={{
           fontSize: "3rem",
           fontWeight: "bold",
-          marginBottom: "1rem",
           marginTop: "2rem",
         }}
       >
@@ -22,11 +21,9 @@ function Header() {
       </h1>
       <h1
         style={{
-          fontSize: "2rem",
+          fontSize: "1.5rem",
           marginBottom: "1rem",
-          marginTop: "2rem",
-          position: "relative",
-          right: "17%",
+          color: "gray"
         }}
       >
         I build web applications.

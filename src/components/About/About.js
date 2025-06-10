@@ -11,11 +11,11 @@ export default function About() {
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
       id="about"
-      className="container max-w-5xl mx-auto p-8 scroll-mt-32"
+      className={`container max-w-5xl mx-auto p-8 scroll-mt-32 ${styles.about}`}
     >
-      <h2 className={`text-2xl font-semibold mb-4  ${styles.text}`}>About Me</h2>
+      <h2 className={`text-3xl font-semibold mb-4  ${styles.text}`}>SUMMARY</h2>
       <p className="leading-relaxed">
-        Detail-oriented Full Stack Developer with 3.9+ years of experience
+        Detail-oriented Full Stack Developer with 3.10+ years of experience
         building scalable, user-focused web applications using Angular,
         JavaScript, TypeScript, Node.js, Java, and AWS. Proficient in front-end
         and back-end development, clean code practices, performance
