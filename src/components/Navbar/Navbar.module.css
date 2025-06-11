@@ -1,0 +1,7 @@
+nav {
+  font-family: "Poppins", sans-serif;
+}
+
+.group span {
+  transition: all 0.3s ease-in-out;
+}

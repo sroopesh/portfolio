@@ -13,9 +13,9 @@ import Header from "./components/Header/Header";
 export default function App() {
   return (
     <div>
-      <div className="wave-background"></div>
       <Navbar />
       <Header />
+      <hr className="border-2 border-gray-800 my-8 w-full" />
       <About />
       <Skills />
       <Experience />
