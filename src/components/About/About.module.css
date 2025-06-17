@@ -7,3 +7,9 @@
     margin-left: 9.5rem;
     scroll-margin-top: 70px;
 }
+
+@media screen and (max-width: 640px) {
+  .about {
+    margin-left: 0;
+  }
+}

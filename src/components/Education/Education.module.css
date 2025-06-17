@@ -1,13 +1,44 @@
+.icons {
+  position: relative;
+  margin-bottom: 30px;
+  left: 90%;
+}
+
+.header {
+  text-align: left;
+  margin-left: 9.5rem;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .education {
-    text-align: left;
-    margin-left: 9.5rem;
-    scroll-margin-top: 70px;
+  text-align: left;
+  margin-left: 9.5rem;
+  scroll-margin-top: 70px;
 }
 
 .educationList {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .educationCard {
@@ -25,4 +56,20 @@
 .educationCard:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 16px rgba(239, 236, 236, 0.625);
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 640px) {
+  .header {
+    margin-left: 0;
+  }
+
+  .education {
+    margin-left: 0;
+  }
+
+  .educationCard {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }

@@ -4,3 +4,8 @@
     scroll-margin-top: 70px;
 }
 
+@media screen and (max-width: 640px) {
+  .projects {
+    margin-left: 0;
+  }
+}
