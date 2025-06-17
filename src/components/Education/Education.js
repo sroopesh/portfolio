@@ -7,7 +7,7 @@ export default function Education() {
       id="education"
       className={`container max-w-5xl mx-auto p-8 scroll-mt-32 ${styles.education}`}
     >
-      <h2 className="text-3xl font-semibold mb-8 text-white">EDUCATION</h2>
+      <h2 className="text-4xl font-semibold mb-8 text-white">EDUCATION</h2>
       <ul className={`flex flex-wrap gap-6 ${styles.educationList}`}>
         <li className={styles.educationCard}>
           <h3 className="text-gray-500 font-semibold text-xl mb-2">

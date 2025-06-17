@@ -5,7 +5,7 @@ import styles from './Projects.module.css'
 export default function Projects() {
   return (
     <section id="projects" className={`container max-w-5xl mx-auto p-8 my-6 scroll-mt-32 ${styles.projects}`}>
-      <h2 className="text-3xl font-semibold mb-4 text-white">PROJECTS</h2>
+      <h2 className="text-4xl font-semibold mb-4 text-white">PROJECTS</h2>
       <div className="space-y-6">
         {[
           {
