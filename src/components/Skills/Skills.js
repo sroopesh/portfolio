@@ -7,9 +7,15 @@ import styles from "./Skills.module.css";
 const skills = [
   "HTML5", "CSS3", "JavaScript", "Angular", "ReactJS", "Redux",
   "TypeScript", "NextJs", "SCSS", "GraphQL", "GIT", "JIRA",
-  "BitBucket", "REST APIs", "VueJs", "Jest", "Java", "NodeJS",
-  "AWS", "API Gateway", "MongoDB", "ExpressJS",
+  "BitBucket", "REST APIs", "VueJs", "Jest", "NPM", "Java",
+  "Data Structures & Algorithms", "Adobe Experience Manager 6.5",
+  "Figma", "Webiny CMS", "Okta", "Storybook", "NodeJS", "AWS",
+  "API Gateway", "Postman", "Contentful", "Google Analytics",
+  "ExpressJS", "MongoDB", "Agile Methodology", "Scrum", "Teamwork",
+  "Leadership", "Technical Analysis", "Problem Solving",
+  "Effective Communication", "Cross-Functional Collaboration"
 ];
+
 
 export default function Skills() {
   return (

@@ -56,11 +56,10 @@ export default function About() {
           transition={{ delay: 0.2 }}
           className="leading-relaxed text-gray-300 text-lg"
         >
-          Detail-oriented Full Stack Developer with 3.10+ years of experience
-          building scalable, user-focused web applications using Angular,
-          JavaScript, TypeScript, Node.js, Java, and AWS. Proficient in front-end
-          and back-end development, clean code practices, performance
-          optimization, and API security.
+          Detail-oriented Full Stack Developer with 3.10+ years of experience building scalable, user-focused web applications using Angular, JavaScript, 
+TypeScript, Node.js, Java, and AWS. Proficient in front-end and back-end development, clean code practices, performance optimization, and API 
+security. Adept at improving user experience and collaborating with cross-functional teams to deliver high-quality, maintainable solutions aligned 
+with business goals.
         </motion.p>
       </motion.div>
     </motion.section>
