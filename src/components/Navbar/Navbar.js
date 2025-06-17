@@ -10,7 +10,7 @@ const menuItems = [
   { id: "projects", label: "Projects" },
   { id: "education", label: "Education" },
   { id: "achievements", label: "Achievements" },
-  { id: "resume", label: "Resume" },
+  { id: "resume", label: "Download Resume" },
 ];
 
 const Navbar = () => {

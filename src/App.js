@@ -9,6 +9,7 @@ import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
+import Courses from "./components/Courses/Courses";
 
 export default function App() {
   return (
