@@ -42,8 +42,6 @@
 }
 
 .educationCard {
-  background-color: white;
-  color: #1a202c;
   padding: 1.5rem;
   border-radius: 0.75rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

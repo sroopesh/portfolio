@@ -9,8 +9,8 @@ export default function Education() {
     >
       <h2 className="text-4xl font-semibold mb-8 text-white">EDUCATION</h2>
       <ul className={`flex flex-wrap gap-6 ${styles.educationList}`}>
-        <li className={styles.educationCard}>
-          <h3 className="text-gray-500 font-semibold text-xl mb-2">
+        <li className={`bg-gray-900 text-white ${styles.educationCard}`}>
+          <h3 className="font-semibold text-1/2xl mb-2">
             B.Tech
           </h3>
           <h3 className=" font-semibold text-xl mb-2">
@@ -18,8 +18,8 @@ export default function Education() {
           </h3>
           <p>Bengaluru, India | GPA: 8.89 / 10</p>
         </li>
-        <li className={styles.educationCard}>
-          <h3 className="text-gray-500 font-semibold text-xl mb-2">
+        <li className={`bg-gray-900 text-white ${styles.educationCard}`}>
+          <h3 className="font-semibold text-1/2xl mb-2">
             Pre-University
           </h3>
           <h3 className="font-semibold text-xl mb-2">
@@ -27,8 +27,8 @@ export default function Education() {
           </h3>
           <p>Bengaluru, India | GPA: 9 / 10</p>
         </li>
-        <li className={styles.educationCard}>
-          <h3 className="text-gray-500 font-semibold text-xl mb-2">
+        <li className={`bg-gray-900 text-white ${styles.educationCard}`}>
+          <h3 className="font-semibold text-1/2xl mb-2">
             Secondary (ICSE)
           </h3>
           <h3 className="font-semibold text-xl mb-2">

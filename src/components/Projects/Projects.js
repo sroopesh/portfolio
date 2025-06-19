@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section id="projects" className={`container max-w-5xl mx-auto p-8 my-6 scroll-mt-32 ${styles.projects}`}>
       <h2 className="text-4xl font-semibold mb-4 text-white">PROJECTS</h2>
-      <div className="space-y-6">
+      <div className="space-y-6 ">
         {[
           {
             title: 'ASCO Website – Feature Development and Optimization',
@@ -49,9 +49,9 @@ export default function Projects() {
 - Enhanced user experience through speech customization features, enabling personalized computer interactions for hearing-impaired training.`
           }
         ].map(project => (
-          <div key={project.title} className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-bold text-black mb-4">{project.title}</h3>
-            <pre className="whitespace-pre-wrap text-black text-[1rem] font-medium">{project.desc}</pre>
+          <div key={project.title} className="border border-gray-700 rounded-xl p-6 bg-[#111827] hover:border-purple-500 transition-all duration-300 shadow-md p-4 rounded-xl shadow hover:shadow-lg transition-shadow">
+            <h3 className="text-xl font-bold text-white mb-4">{project.title}</h3>
+            <pre className="whitespace-pre-wrap text-white text-[1rem] font-medium">{project.desc}</pre>
           </div>
         ))}
       </div>
