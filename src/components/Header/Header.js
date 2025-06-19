@@ -14,7 +14,7 @@ function Header() {
       <h1 className="text-5xl sm:text-6xl font-extrabold bg-gradient-to-r from-indigo-400 via-pink-500 to-purple-500 bg-clip-text text-transparent animate-gradient">
         HELLO, I'M A FULL-STACK DEVELOPER.
       </h1>
-      <p className="text-gray-400 text-xl mt-4 mb-8">I build web applications.</p>
+      <p className="text-gray-400 text-xl mt-4 mb-8">I solve real-world problems with code</p>
 
       <div className="flex gap-5 mt-4">
         <a
